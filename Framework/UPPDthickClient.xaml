@@ -358,7 +358,7 @@
             </Sequence>
             <uix:NCheckState sap2010:Annotation.AnnotationText="Ждем, пока появится окно - копия последней заявки на оплату" DisplayName="Check App State '1cv8.exe УППД'" sap:VirtualizedContainerService.HintSize="554,363" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="bd472394-354f-46fb-b914-132611a35f6e" Version="V1">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Целевой объект появляется" sap:VirtualizedContainerService.HintSize="1074,6474" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                <Sequence DisplayName="Целевой объект появляется" sap:VirtualizedContainerService.HintSize="1074,6499" sap2010:WorkflowViewState.IdRef="Sequence_81">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Int32" Default="0" Name="count" />
                     <Variable x:TypeArguments="x:String" Name="text" />
@@ -381,7 +381,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InvokeWorkflowFile>
-                  <Sequence sap2010:Annotation.AnnotationText="Заполняем заявку на расходование средств" DisplayName="FullFill a Zayavka" sap:VirtualizedContainerService.HintSize="1032,2495" sap2010:WorkflowViewState.IdRef="Sequence_72">
+                  <Sequence sap2010:Annotation.AnnotationText="Заполняем заявку на расходование средств" DisplayName="FullFill a Zayavka" sap:VirtualizedContainerService.HintSize="1032,2526" sap2010:WorkflowViewState.IdRef="Sequence_72">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -802,21 +802,21 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:AppendLine>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="438,379" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                    <uix:NKeyboardShortcuts ActivateBefore="True" sap2010:Annotation.AnnotationText="Закрываем заявку" ClickBeforeMode="None" DisplayName="Ctrl + Enter" sap:VirtualizedContainerService.HintSize="438,209" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_26" Shortcuts="[d(hk)][d(ctrl)][k(enter)][u(ctrl)][u(hk)]" Version="V1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NKeyboardShortcuts>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="438,161" sap2010:WorkflowViewState.IdRef="CommentOut_7">
                       <ui:CommentOut.Body>
-                        <Sequence DisplayName="Игнорируемые действия" sap:VirtualizedContainerService.HintSize="376,301" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                        <Sequence DisplayName="Игнорируемые действия" sap:VirtualizedContainerService.HintSize="208,83" sap2010:WorkflowViewState.IdRef="Sequence_89">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NKeyboardShortcuts ActivateBefore="True" sap2010:Annotation.AnnotationText="Закрываем заявку" ClickBeforeMode="None" DisplayName="Ctrl + Enter" sap:VirtualizedContainerService.HintSize="334,209" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_26" Shortcuts="[d(hk)][d(ctrl)][k(enter)][u(ctrl)][u(hk)]" Version="V1">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                          </uix:NKeyboardShortcuts>
                         </Sequence>
                       </ui:CommentOut.Body>
                     </ui:CommentOut>
@@ -942,7 +942,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:InterruptibleWhile>
-                  <Sequence sap2010:Annotation.AnnotationText="Делаем Фото на память" DisplayName="Take screenshot" sap:VirtualizedContainerService.HintSize="1032,484" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                  <Sequence sap2010:Annotation.AnnotationText="Делаем Фото на память" DisplayName="Take screenshot" sap:VirtualizedContainerService.HintSize="1032,481" sap2010:WorkflowViewState.IdRef="Sequence_79">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="ui:Image" Name="screenshotUPP" />
                     </Sequence.Variables>
@@ -965,7 +965,7 @@
                         </ui:Target>
                       </ui:TakeScreenshot.Target>
                     </ui:TakeScreenshot>
-                    <Assign DisplayName="Assign FileName for screenshot" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="Assign_8">
+                    <Assign DisplayName="Assign FileName for screenshot" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_8">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[out_FileNameScreenshot_UPP]</OutArgument>
                       </Assign.To>
@@ -975,7 +975,7 @@
                     </Assign>
                     <ui:SaveImage DisplayName="Save Image" FileName="[out_FileNameScreenshot_UPP]" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="SaveImage_2" Image="[screenshotUPP]" />
                   </Sequence>
-                  <If sap2010:Annotation.AnnotationText="Если Статус работы &quot;Bad&quot; - нажимаем на Ок в окне с ошибкой, записываем текст ошибки в лог. Пытаемся сохранить заявку непроведенной." Condition="[out_statusUPP=&quot;Bad&quot;]" DisplayName="If out_statusUPP=&quot;Bad&quot;" sap:VirtualizedContainerService.HintSize="1032,1907" sap2010:WorkflowViewState.IdRef="If_2">
+                  <If sap2010:Annotation.AnnotationText="Если Статус работы &quot;Bad&quot; - нажимаем на Ок в окне с ошибкой, записываем текст ошибки в лог. Пытаемся сохранить заявку непроведенной." Condition="[out_statusUPP=&quot;Bad&quot;]" DisplayName="If out_statusUPP=&quot;Bad&quot;" sap:VirtualizedContainerService.HintSize="1032,1904" sap2010:WorkflowViewState.IdRef="If_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -984,9 +984,9 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <If.Then>
-                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,1706" sap2010:WorkflowViewState.IdRef="TryCatch_9">
+                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,1704" sap2010:WorkflowViewState.IdRef="TryCatch_9">
                         <TryCatch.Try>
-                          <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="376,1479" sap2010:WorkflowViewState.IdRef="Sequence_80">
+                          <Sequence DisplayName="Сделать" sap:VirtualizedContainerService.HintSize="376,1477" sap2010:WorkflowViewState.IdRef="Sequence_80">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
