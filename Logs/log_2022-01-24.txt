@@ -1,0 +1,75 @@
+﻿04:30:29 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:30:30 run 1C Buh
+04:30:30 delay 5 sec
+04:30:35 delay 5 sec
+04:30:40 1C Buh is started
+04:30:40 run 1C UPP
+04:30:40 delay 7 sec
+04:30:47 delay 7 sec
+04:30:54 delay 7 sec
+04:31:01 delay 7 sec
+04:31:09 delay 7 sec
+04:31:16 delay 7 sec
+04:31:23 delay 7 sec
+04:31:30 delay 7 sec
+04:31:37 delay 7 sec
+04:31:44 delay 7 sec
+04:31:51 1C UPP is started
+04:31:53 start process
+04:31:53 exe file 1c Buh is 1cv8c.exe
+04:32:05 opened an act in 1C Buh
+04:42:51 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:42:52 run 1C Buh
+04:42:52 delay 5 sec
+04:42:57 1C Buh is started
+04:42:57 run 1C UPP
+04:42:58 delay 7 sec
+04:43:05 delay 7 sec
+04:43:12 delay 7 sec
+04:43:19 delay 7 sec
+04:43:26 delay 7 sec
+04:43:33 delay 7 sec
+04:43:41 1C UPP is started
+04:43:44 start process
+04:43:45 exe file 1c Buh is 1cv8c.exe
+04:43:56 opened an act in 1C Buh
+04:44:20 An Act is fullfilled
+06:55:41 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+06:55:42 run 1C Buh
+06:55:42 delay 5 sec
+06:55:47 delay 5 sec
+06:55:52 1C Buh is started
+06:55:52 run 1C UPP
+06:55:52 delay 7 sec
+06:55:59 delay 7 sec
+06:56:06 delay 7 sec
+06:56:14 delay 7 sec
+06:56:21 delay 7 sec
+06:56:28 delay 7 sec
+06:56:35 delay 7 sec
+06:56:42 delay 7 sec
+06:56:49 1C UPP is started
+06:56:52 start process
+06:56:52 exe file 1c Buh is 1cv8c.exe
+06:57:02 opened an act in 1C Buh
+06:57:25 An Act is fullfilled
+07:09:00 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+07:09:01 run 1C Buh
+07:09:01 delay 5 sec
+07:09:06 1C Buh is started
+07:09:06 run 1C UPP
+07:09:06 delay 7 sec
+07:09:13 delay 7 sec
+07:09:21 delay 7 sec
+07:09:28 delay 7 sec
+07:09:35 delay 7 sec
+07:09:42 delay 7 sec
+07:09:49 1C UPP is started
+07:09:52 start process
+07:09:52 exe file 1c Buh is 1cv8c.exe
+07:10:02 opened an act in 1C Buh
+07:10:25 An Act is fullfilled
+07:10:28 contract is 9017209964
+07:10:31 suma is 626,86 
+07:10:36 1C Buh is closed
+07:11:18 fulfill Zayavka in 1c UPP

@@ -1,0 +1,78 @@
+﻿10:01:14 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:01:14 run 1C Buh
+10:01:14 delay 5 sec
+10:01:19 delay 5 sec
+10:01:24 delay 5 sec
+10:01:29 1C Buh is started
+10:01:30 run 1C UPP
+10:01:30 delay 7 sec
+10:01:37 delay 7 sec
+10:01:44 delay 7 sec
+10:01:51 delay 7 sec
+10:01:58 delay 7 sec
+10:02:05 delay 7 sec
+10:02:12 delay 7 sec
+10:02:19 delay 7 sec
+10:02:26 1C UPP is started
+10:02:27 start processing 1C
+10:02:27 exe file 1c Buh is 1cv8c.exe
+10:02:35 opened an act in 1C Buh
+10:03:01 An Act is fullfilled
+10:03:46 run 1C Buh
+10:03:46 delay 5 sec
+10:03:51 1C Buh is started
+10:03:51 run 1C UPP
+10:03:51 delay 7 sec
+10:03:58 delay 7 sec
+10:04:05 delay 7 sec
+10:04:12 delay 7 sec
+10:04:19 1C UPP is started
+10:04:20 The end of process
+10:35:09 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:35:10 run 1C Buh
+10:35:10 delay 5 sec
+10:35:15 1C Buh is started
+10:35:15 run 1C UPP
+10:35:15 delay 7 sec
+10:35:22 delay 7 sec
+10:35:29 delay 7 sec
+10:35:36 delay 7 sec
+10:35:43 1C UPP is started
+10:35:45 start processing 1C
+10:35:45 exe file 1c Buh is 1cv8c.exe
+10:35:51 opened an act in 1C Buh
+10:36:16 An Act is fullfilled
+10:37:03 run 1C Buh
+10:37:03 delay 5 sec
+10:37:08 1C Buh is started
+10:37:08 run 1C UPP
+10:37:08 delay 7 sec
+10:37:15 delay 7 sec
+10:37:22 delay 7 sec
+10:37:29 delay 7 sec
+10:37:36 1C UPP is started
+10:37:36 The end of process
+10:54:18 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:54:18 run 1C Buh
+10:54:18 delay 5 sec
+10:54:23 1C Buh is started
+10:54:23 run 1C UPP
+10:54:23 delay 7 sec
+10:54:30 delay 7 sec
+10:54:37 delay 7 sec
+10:54:45 delay 7 sec
+10:54:52 1C UPP is started
+10:54:53 start processing 1C
+10:54:53 exe file 1c Buh is 1cv8c.exe
+10:54:59 opened an act in 1C Buh
+10:55:24 An Act is fullfilled
+10:56:19 run 1C Buh
+10:56:19 delay 5 sec
+10:56:24 1C Buh is started
+10:56:24 run 1C UPP
+10:56:24 delay 7 sec
+10:56:31 delay 7 sec
+10:56:38 delay 7 sec
+10:56:45 delay 7 sec
+10:56:52 1C UPP is started
+10:56:52 The end of process

@@ -1,0 +1,52 @@
+﻿Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:56Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:58:18.4038148       Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09-59-45 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:40:11 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:40:12 run 1C Buh
+10:40:12 delay 5 sec
+10:40:17 delay 5 sec
+10:40:22 1C Buh is started
+10:40:23 run 1C UPP
+10:40:23 delay 7 sec
+10:40:30 delay 7 sec
+10:40:37 delay 7 sec
+10:40:44 delay 7 sec
+10:40:51 delay 7 sec
+10:40:58 delay 7 sec
+10:41:05 1C UPP is started
+10:41:06 start process
+10:41:06 exe file 1c Buh is 1cv8c.exe
+10:41:17 opened an act in 1C Buh
+10:41:42 An Act is fullfilled
+10:41:45 contract is 9008613428
+10:41:49 suma is 637,95 
+10:41:53 1C Buh is closed
+10:42:36 fulfill Zayavka in 1c UPP
+10:43:24 The end of process
+12:19:47 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:19:49 run 1C Buh
+12:19:49 delay 5 sec
+12:19:54 delay 5 sec
+12:19:59 1C Buh is started
+12:19:59 run 1C UPP
+12:19:59 delay 7 sec
+12:20:06 delay 7 sec
+12:20:13 delay 7 sec
+12:20:20 delay 7 sec
+12:20:27 delay 7 sec
+12:20:34 1C UPP is started
+12:20:36 start process
+12:20:36 exe file 1c Buh is 1cv8c.exe
+12:20:38 run 1C Buh
+12:20:38 delay 5 sec
+12:20:43 delay 5 sec
+12:20:48 1C Buh is started
+12:20:48 run 1C UPP
+12:20:48 delay 7 sec
+12:20:56 delay 7 sec
+12:21:03 delay 7 sec
+12:21:10 delay 7 sec
+12:21:17 delay 7 sec
+12:21:24 1C UPP is started
+12:21:24 The end of process

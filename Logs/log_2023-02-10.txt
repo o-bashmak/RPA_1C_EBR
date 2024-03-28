@@ -1,0 +1,17 @@
+﻿10:01:47 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:01:50 run 1C UPP
+10:01:50 delay 7 sec
+10:01:57 delay 7 sec
+10:02:04 delay 7 sec
+10:02:11 delay 7 sec
+10:02:18 delay 7 sec
+10:02:25 1C UPP is started
+10:02:26 start processing 1C
+10:03:09 fulfilling Zayavka in 1c UPP
+10:03:38 fulfill Zayavka is fullfilled
+10:25:20 run 1C UPP
+10:25:20 delay 7 sec
+10:25:28 delay 7 sec
+10:25:35 delay 7 sec
+10:25:42 1C UPP is started
+10:25:42 The end of process

@@ -1,0 +1,58 @@
+﻿09:34:41 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:34:43 run 1C Buh
+09:34:43 delay 5 sec
+09:34:48 delay 5 sec
+09:34:53 1C Buh is started
+09:34:53 run 1C UPP
+09:34:53 delay 7 sec
+09:35:00 delay 7 sec
+09:35:07 delay 7 sec
+09:35:14 delay 7 sec
+09:35:21 delay 7 sec
+09:35:28 1C UPP is started
+09:35:30 start processing 1C
+09:35:30 exe file 1c Buh is 1cv8c.exe
+09:35:43 opened analiz subcontoin 1C Buh
+09:36:45 A filter for analiz is fullfilled
+09:37:28 Sum for payment MTS-cloud is 24192.17
+09:38:55 fulfilling Zayavka in 1c UPP
+11:10:35 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+11:10:36 run 1C Buh
+11:10:36 delay 5 sec
+11:10:41 delay 5 sec
+11:10:46 delay 5 sec
+11:10:51 1C Buh is started
+11:10:51 run 1C UPP
+11:10:51 delay 7 sec
+11:10:58 delay 7 sec
+11:11:05 delay 7 sec
+11:11:12 delay 7 sec
+11:11:19 delay 7 sec
+11:11:27 1C UPP is started
+11:11:28 start processing 1C
+11:11:28 exe file 1c Buh is 1cv8c.exe
+11:11:33 opened analiz subcontoin 1C Buh
+11:12:01 A filter for analiz is fullfilled
+11:12:11 1C Buh is started
+11:12:11 1C UPP is started
+11:12:11 The end of process
+11:15:03 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+11:15:04 1C Buh is started
+11:15:04 1C UPP is started
+11:15:05 start processing 1C
+11:15:05 exe file 1c Buh is 1cv8c.exe
+11:15:11 opened analiz subcontoin 1C Buh
+11:15:39 A filter for analiz is fullfilled
+11:15:49 Sum for payment MTS-cloud is 24192.17
+11:16:39 fulfilling Zayavka in 1c UPP
+11:17:45 fulfill Zayavka is fullfilled
+11:18:03   -   	Не удалось провести: "Заявка на расход денежных средств"!
+11:18:05
+ Служебное сообщение: === Недостаточно средств в бюджете для документа:  ===
+ЦФО: Отдел поддержки и развития информационных сервисов ТХ
+Статья бюджета: Выплаты за связь, интернет, почтовые услуги
+Проект: 52. Текущая деятельность.
+Запланировано на месяц: 800,00. Очередь заявок: Ноль. В пути: Ноль. Исполнено: Ноль.
+ТЕКУЩАЯ ЗАЯВКА: 24 192,17. ДОСТУПНО СРЕДСТВ: 800,00.
+----------------------------------------
+11:48:27 The end of process

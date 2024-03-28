@@ -1,0 +1,106 @@
+﻿08:35:19 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:35:22 run 1C Buh
+08:35:23 delay 5 sec
+08:35:29 delay 5 sec
+08:35:35 delay 5 sec
+08:35:40 1C Buh is started
+08:35:41 run 1C UPP
+08:35:41 delay 7 sec
+08:35:48 delay 7 sec
+08:35:55 delay 7 sec
+08:36:03 delay 7 sec
+08:36:11 delay 7 sec
+08:36:18 delay 7 sec
+08:36:26 delay 7 sec
+08:36:33 delay 7 sec
+08:36:41 delay 7 sec
+08:36:48 delay 7 sec
+08:36:55 delay 7 sec
+08:37:03 delay 7 sec
+08:37:10 delay 7 sec
+08:37:18 1C UPP is started
+08:37:22 start process
+08:37:22 exe file 1c Buh is 1cv8c.exe
+08:37:37 opened an act in 1C Buh
+08:46:17 start process
+08:46:17 exe file 1c Buh is 1cv8c.exe
+08:47:30 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:47:31 1C Buh is started
+08:47:31 1C UPP is started
+08:47:33 start process
+08:47:33 exe file 1c Buh is 1cv8c.exe
+08:47:43 opened an act in 1C Buh
+09:05:07 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:05:08 1C Buh is started
+09:05:08 1C UPP is started
+09:05:11 start process
+09:05:11 exe file 1c Buh is 1cv8c.exe
+09:05:31 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:05:33 1C Buh is started
+09:05:33 1C UPP is started
+09:05:35 start process
+09:05:36 exe file 1c Buh is 1cv8c.exe
+09:05:45 opened an act in 1C Buh
+09:11:17 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:11:18 1C Buh is started
+09:11:18 1C UPP is started
+09:11:21 start process
+09:11:21 exe file 1c Buh is 1cv8c.exe
+09:14:12 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:14:13 1C Buh is started
+09:14:13 1C UPP is started
+09:14:16 start process
+09:14:16 exe file 1c Buh is 1cv8c.exe
+09:14:45 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:14:47 1C Buh is started
+09:14:47 1C UPP is started
+09:14:49 start process
+09:14:50 exe file 1c Buh is 1cv8c.exe
+09:15:43 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:15:46 1C Buh is started
+09:15:46 1C UPP is started
+09:15:49 start process
+09:15:49 exe file 1c Buh is 1cv8c.exe
+09:16:55 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:16:57 1C Buh is started
+09:16:57 1C UPP is started
+09:17:01 start process
+09:17:01 exe file 1c Buh is 1cv8c.exe
+09:17:11 opened an act in 1C Buh
+09:19:15 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:19:16 1C Buh is started
+09:19:16 1C UPP is started
+09:19:19 start process
+09:19:20 exe file 1c Buh is 1cv8c.exe
+09:19:30 opened an act in 1C Buh
+09:22:15 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:22:16 1C Buh is started
+09:22:16 1C UPP is started
+09:22:20 start process
+09:22:20 exe file 1c Buh is 1cv8c.exe
+09:22:30 opened an act in 1C Buh
+09:23:43 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:23:44 1C Buh is started
+09:23:44 1C UPP is started
+09:23:47 start process
+09:23:47 exe file 1c Buh is 1cv8c.exe
+09:23:57 opened an act in 1C Buh
+09:24:48 An Act is fullfilled
+09:24:51 contract is 9019579792
+09:24:55 suma is 634,10 
+09:25:00 1C Buh is closed
+09:25:48 fulfill Zayavka in 1c UPP
+09:30:01 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:30:03 run 1C Buh
+09:30:03 delay 5 sec
+09:30:09 delay 5 sec
+09:30:14 1C Buh is started
+09:30:14 1C UPP is started
+09:30:17 start process
+09:30:18 exe file 1c Buh is 1cv8c.exe
+09:30:28 opened an act in 1C Buh
+09:31:41 An Act is fullfilled
+09:31:45 contract is 9019579792
+09:31:49 suma is 634,10 
+09:31:54 1C Buh is closed
+09:32:36 fulfill Zayavka in 1c UPP

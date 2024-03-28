@@ -1,0 +1,90 @@
+﻿09:50:20 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:50:21 1C Buh is started
+09:50:21 run 1C UPP
+09:50:21 delay 7 sec
+09:50:28 delay 7 sec
+09:50:36 delay 7 sec
+09:50:43 delay 7 sec
+09:50:50 delay 7 sec
+09:50:57 1C UPP is started
+09:50:59 start process
+09:50:59 exe file 1c Buh is 1cv8c.exe
+09:51:14 opened an act in 1C Buh
+10:03:24 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:03:25 1C Buh is started
+10:03:25 1C UPP is started
+10:03:27 start process
+10:03:27 exe file 1c Buh is 1cv8c.exe
+10:03:40 opened an act in 1C Buh
+10:10:39 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:10:41 1C Buh is started
+10:10:41 1C UPP is started
+10:10:43 start process
+10:10:43 exe file 1c Buh is 1cv8c.exe
+10:10:56 opened an act in 1C Buh
+10:13:44 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:13:46 1C Buh is started
+10:13:46 1C UPP is started
+10:13:48 start process
+10:13:48 exe file 1c Buh is 1cv8c.exe
+10:14:01 opened an act in 1C Buh
+12:53:09 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:53:10 1C Buh is started
+12:53:11 The end of process
+12:53:45 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:53:46 1C Buh is started
+12:53:46 The end of process
+12:55:14 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:55:23 1C Buh is started
+12:55:45 The end of process
+12:57:11 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:57:14 1C Buh is started
+12:57:14 1C UPP is started
+12:57:16 start process
+12:57:16 exe file 1c Buh is 1cv8c.exe
+12:57:29 opened an act in 1C Buh
+02:48:01 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:48:09 1C Buh is started
+02:48:09 1C UPP is started
+02:48:11 start process
+02:48:11 exe file 1c Buh is 1cv8c.exe
+02:48:24 opened an act in 1C Buh
+04:43:20 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:43:30 1C Buh is started
+04:43:30 1C UPP is started
+04:43:32 start process
+04:43:32 exe file 1c Buh is 1cv8c.exe
+04:43:45 opened an act in 1C Buh
+04:46:41 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:46:46 1C Buh is started
+04:46:46 1C UPP is started
+04:46:49 start process
+04:46:49 exe file 1c Buh is 1cv8c.exe
+04:46:54 opened an act in 1C Buh
+04:50:37 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:50:41 1C Buh is started
+04:50:41 1C UPP is started
+04:50:44 start process
+04:50:44 exe file 1c Buh is 1cv8c.exe
+04:50:49 opened an act in 1C Buh
+04:56:00 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:56:03 1C Buh is started
+04:56:03 1C UPP is started
+04:56:06 start process
+04:56:06 exe file 1c Buh is 1cv8c.exe
+04:56:10 opened an act in 1C Buh
+04:57:42 A filter for analiz is fullfilled
+04:58:24 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:58:27 1C Buh is started
+04:58:27 1C UPP is started
+04:58:30 start process
+04:58:30 exe file 1c Buh is 1cv8c.exe
+04:58:34 opened an act in 1C Buh
+04:59:14 A filter for analiz is fullfilled
+05:00:12 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+05:00:15 1C Buh is started
+05:00:16 1C UPP is started
+05:00:18 start process
+05:00:18 exe file 1c Buh is 1cv8c.exe
+05:00:23 opened an act in 1C Buh
+05:00:54 A filter for analiz is fullfilled

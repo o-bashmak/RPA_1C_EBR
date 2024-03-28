@@ -1,0 +1,21 @@
+﻿02:30:11 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:30:11 run 1C Buh
+02:30:12 delay 5 sec
+02:30:17 delay 5 sec
+02:30:22 1C Buh is started
+02:30:22 run 1C UPP
+02:30:22 delay 7 sec
+02:30:29 delay 7 sec
+02:30:36 delay 7 sec
+02:30:43 delay 7 sec
+02:30:50 1C UPP is started
+02:30:51 start process
+02:30:51 exe file 1c Buh is 1cv8c.exe
+02:30:57 opened an act in 1C Buh
+02:31:14 An Act is fullfilled
+02:31:31 suma is 32442,08 
+02:31:35 1C Buh is closed
+02:32:35 fulfilling Zayavka in 1c UPP
+02:33:05 fulfill Zayavka is fullfilled
+02:33:28   -   Да	Нет	Уже существует проведенная заявка на расходование средств №СМУ00025882 для Смолевичи Бройлер ОАО и Финансовый сектор СБ на 09.10.2023 по р/с BY56MMBN21720000010001998347, ООО "Банк Дабрабыт" контрагента Банк Дабрабыт. Продолжить сохранение заявки?
+02:34:00 The end of process

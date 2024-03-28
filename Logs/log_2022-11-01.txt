@@ -1,0 +1,11 @@
+﻿09:16:52 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+09:16:52 1C Buh is started
+09:16:53 run 1C UPP
+09:16:53 delay 7 sec
+09:17:01 delay 7 sec
+09:17:08 delay 7 sec
+09:17:15 delay 7 sec
+09:17:22 delay 7 sec
+09:17:29 delay 7 sec
+09:17:36 1C UPP is started
+09:17:37 start processing 1C

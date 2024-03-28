@@ -1,0 +1,71 @@
+﻿02:34:18 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:34:19 run 1C Buh
+02:34:19 delay 5 sec
+02:34:24 delay 5 sec
+02:34:30 delay 5 sec
+02:34:35 1C Buh is started
+02:34:35 run 1C UPP
+02:34:35 delay 7 sec
+02:34:42 delay 7 sec
+02:34:49 delay 7 sec
+02:34:56 delay 7 sec
+02:35:03 1C UPP is started
+02:35:05 start process
+02:35:05 exe file 1c Buh is 1cv8c.exe
+02:35:12 opened an act in 1C Buh
+02:35:44 An Act is fullfilled
+02:38:52 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:38:53 run 1C Buh
+02:38:53 delay 5 sec
+02:38:58 delay 5 sec
+02:39:03 1C Buh is started
+02:39:04 run 1C UPP
+02:39:04 delay 7 sec
+02:39:11 delay 7 sec
+02:39:18 1C UPP is started
+02:39:20 start process
+02:39:20 exe file 1c Buh is 1cv8c.exe
+02:39:26 opened an act in 1C Buh
+02:39:43 An Act is fullfilled
+03:16:33 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+03:16:34 run 1C Buh
+03:16:34 delay 5 sec
+03:16:39 delay 5 sec
+03:16:44 1C Buh is started
+03:16:44 run 1C UPP
+03:16:44 delay 7 sec
+03:16:52 delay 7 sec
+03:16:59 delay 7 sec
+03:17:06 delay 7 sec
+03:17:13 1C UPP is started
+03:17:15 start process
+03:17:15 exe file 1c Buh is 1cv8c.exe
+03:17:21 opened an act in 1C Buh
+03:17:37 An Act is fullfilled
+03:19:43 1C Buh is closed
+03:21:35 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+03:21:36 run 1C Buh
+03:21:36 delay 5 sec
+03:21:41 delay 5 sec
+03:21:46 delay 5 sec
+03:21:51 1C Buh is started
+03:21:51 run 1C UPP
+03:21:51 delay 7 sec
+03:21:59 delay 7 sec
+03:22:06 delay 7 sec
+03:22:13 1C UPP is started
+03:22:15 start process
+03:22:15 exe file 1c Buh is 1cv8c.exe
+03:22:21 opened an act in 1C Buh
+03:22:38 An Act is fullfilled
+03:23:42 1C Buh is closed
+04:02:46 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+04:02:47 run 1C Buh
+04:02:47 delay 5 sec
+04:02:53 1C Buh is started
+04:02:53 1C UPP is started
+04:02:55 start process
+04:02:55 exe file 1c Buh is 1cv8c.exe
+04:03:01 opened an act in 1C Buh
+04:03:17 An Act is fullfilled
+04:04:32 1C Buh is closed

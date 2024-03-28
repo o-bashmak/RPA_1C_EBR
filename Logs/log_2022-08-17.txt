@@ -1,0 +1,117 @@
+﻿11:07:50 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+11:07:51 run 1C Buh
+11:07:51 delay 5 sec
+11:07:56 delay 5 sec
+11:08:01 delay 5 sec
+11:08:06 1C Buh is started
+11:08:07 run 1C UPP
+11:08:07 delay 7 sec
+11:08:14 delay 7 sec
+11:08:21 delay 7 sec
+11:08:28 delay 7 sec
+11:08:35 delay 7 sec
+11:08:42 delay 7 sec
+11:08:49 delay 7 sec
+11:08:56 1C UPP is started
+11:08:57 start processing 1C
+11:08:57 exe file 1c Buh is 1cv8c.exe
+11:09:02 opened analiz subcontoin 1C Buh
+11:09:30 A filter for analiz is fullfilled
+11:15:08 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+11:15:09 run 1C Buh
+11:15:09 delay 5 sec
+11:15:14 1C Buh is started
+11:15:14 run 1C UPP
+11:15:14 delay 7 sec
+11:15:21 delay 7 sec
+11:15:28 delay 7 sec
+11:15:35 delay 7 sec
+11:15:42 1C UPP is started
+11:15:44 start processing 1C
+11:15:44 exe file 1c Buh is 1cv8c.exe
+11:15:49 opened analiz subcontoin 1C Buh
+11:16:15 A filter for analiz is fullfilled
+11:49:27 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+11:49:28 run 1C Buh
+11:49:28 delay 5 sec
+11:49:33 delay 5 sec
+11:49:38 1C Buh is started
+11:49:38 run 1C UPP
+11:49:38 delay 7 sec
+11:49:46 delay 7 sec
+11:49:53 delay 7 sec
+11:50:00 delay 7 sec
+11:50:07 1C UPP is started
+11:50:08 start processing 1C
+11:50:08 exe file 1c Buh is 1cv8c.exe
+11:50:13 opened analiz subcontoin 1C Buh
+11:50:40 A filter for analiz is fullfilled
+11:58:28 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+11:58:29 run 1C Buh
+11:58:29 delay 5 sec
+11:58:34 1C Buh is started
+11:58:35 run 1C UPP
+11:58:35 delay 7 sec
+11:58:42 delay 7 sec
+11:58:49 delay 7 sec
+11:58:56 delay 7 sec
+11:59:03 1C UPP is started
+11:59:04 start processing 1C
+11:59:04 exe file 1c Buh is 1cv8c.exe
+11:59:09 opened analiz subcontoin 1C Buh
+11:59:36 A filter for analiz is fullfilled
+11:59:49 Sum for payment ЦСМ is 
+12:04:30 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:04:30 run 1C Buh
+12:04:30 delay 5 sec
+12:04:36 1C Buh is started
+12:04:36 run 1C UPP
+12:04:36 delay 7 sec
+12:04:43 delay 7 sec
+12:04:50 delay 7 sec
+12:04:57 delay 7 sec
+12:05:04 1C UPP is started
+12:05:05 start processing 1C
+12:05:05 exe file 1c Buh is 1cv8c.exe
+12:05:10 opened analiz subcontoin 1C Buh
+12:05:37 A filter for analiz is fullfilled
+12:22:15 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+12:22:16 run 1C Buh
+12:22:16 delay 5 sec
+12:22:21 1C Buh is started
+12:22:21 run 1C UPP
+12:22:21 delay 7 sec
+12:22:28 delay 7 sec
+12:22:35 delay 7 sec
+12:22:42 delay 7 sec
+12:22:49 1C UPP is started
+12:22:51 start processing 1C
+12:22:51 exe file 1c Buh is 1cv8c.exe
+12:22:56 opened analiz subcontoin 1C Buh
+12:23:23 A filter for analiz is fullfilled
+02:19:42 Sum for payment ЦСМ is 
+02:30:18 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:30:19 run 1C Buh
+02:30:20 delay 5 sec
+02:30:25 delay 5 sec
+02:30:30 1C Buh is started
+02:30:30 run 1C UPP
+02:30:30 delay 7 sec
+02:30:37 delay 7 sec
+02:30:44 delay 7 sec
+02:30:51 delay 7 sec
+02:30:58 1C UPP is started
+02:47:48 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:47:49 run 1C Buh
+02:47:49 delay 5 sec
+02:47:54 1C Buh is started
+02:47:54 run 1C UPP
+02:47:54 delay 7 sec
+02:48:01 delay 7 sec
+02:48:09 delay 7 sec
+02:48:16 delay 7 sec
+02:48:23 1C UPP is started
+02:48:24 start processing 1C
+02:48:24 exe file 1c Buh is 1cv8c.exe
+02:48:30 opened analiz subcontoin 1C Buh
+02:48:57 A filter for analiz is fullfilled

@@ -1,0 +1,18 @@
+﻿10:01:39 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+10:01:41 run 1C UPP
+10:01:41 delay 7 sec
+10:01:48 delay 7 sec
+10:01:55 delay 7 sec
+10:02:02 1C UPP is started
+10:02:03 start processing 1C
+10:02:40 fulfilling Zayavka in 1c UPP
+10:03:05 fulfill Zayavka is fullfilled
+10:03:22   -   	Не удалось провести: "Заявка на расход денежных средств"!
+10:03:24
+ Служебное сообщение: По Отдел поддержки информационных сервисов СЛ ; Выплаты  за поддержку (абонплата) и обновление программного обеспечения ; 52. Текущая деятельность не обнаружено средств!!!
+----------------------------------------
+10:04:12 run 1C UPP
+10:04:12 delay 7 sec
+10:04:19 delay 7 sec
+10:04:26 1C UPP is started
+10:04:26 The end of process

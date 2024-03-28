@@ -1,0 +1,8 @@
+﻿02:04:32 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:04:32 run 1C Buh
+02:04:32 delay 5 sec
+02:04:38 delay 5 sec
+02:04:43 delay 5 sec
+02:04:48 delay 5 sec
+02:04:53 delay 5 sec
+02:04:58 delay 5 sec

@@ -1,0 +1,16 @@
+﻿02:30:13 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+02:30:14 run 1C Buh
+02:30:14 delay 5 sec
+02:30:19 delay 5 sec
+02:30:24 delay 5 sec
+02:30:29 1C Buh is started
+02:30:29 run 1C UPP
+02:30:29 delay 7 sec
+02:30:36 delay 7 sec
+02:30:43 delay 7 sec
+02:30:50 1C UPP is started
+02:30:52 start process
+02:30:52 exe file 1c Buh is 1cv8c.exe
+02:30:58 opened an act in 1C Buh
+02:31:16 An Act is fullfilled
+02:31:46 1C Buh is closed

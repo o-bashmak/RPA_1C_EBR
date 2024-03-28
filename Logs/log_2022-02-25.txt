@@ -1,0 +1,70 @@
+﻿08:03:20 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:03:21 1C Buh is started
+08:03:21 1C UPP is started
+08:03:23 start process
+08:03:23 exe file 1c Buh is 1cv8c.exe
+08:03:34 opened an act in 1C Buh
+08:04:06 An Act is fullfilled
+08:04:09 contract is 9019579792
+08:04:13 suma is 634,10 
+08:04:17 1C Buh is closed
+08:05:07 fulfill Zayavka in 1c UPP
+08:07:50 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:07:51 run 1C Buh
+08:07:51 delay 5 sec
+08:07:56 delay 5 sec
+08:08:01 1C Buh is started
+08:08:01 1C UPP is started
+08:08:03 start process
+08:08:03 exe file 1c Buh is 1cv8c.exe
+08:08:13 opened an act in 1C Buh
+08:08:44 An Act is fullfilled
+08:08:47 contract is 9019579792
+08:08:50 suma is 634,10 
+08:08:55 1C Buh is closed
+08:09:38 fulfill Zayavka in 1c UPP
+08:10:23 run 1C Buh
+08:10:23 delay 5 sec
+08:10:28 1C Buh is started
+08:10:28 1C UPP is started
+08:10:28 The end of process
+08:17:05 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:17:06 1C Buh is started
+08:17:06 1C UPP is started
+08:17:08 start process
+08:17:08 exe file 1c Buh is 1cv8c.exe
+08:17:18 opened an act in 1C Buh
+08:17:51 An Act is fullfilled
+08:17:54 contract is 9019579792
+08:17:58 suma is 634,10 
+08:18:02 1C Buh is closed
+08:20:20 fulfill Zayavka in 1c UPP
+08:24:02 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:24:03 run 1C Buh
+08:24:03 delay 5 sec
+08:24:08 delay 5 sec
+08:24:14 1C Buh is started
+08:24:14 1C UPP is started
+08:24:16 start process
+08:24:16 exe file 1c Buh is 1cv8c.exe
+08:24:27 opened an act in 1C Buh
+08:24:58 An Act is fullfilled
+08:25:01 contract is 9019579792
+08:25:04 suma is 634,10 
+08:25:09 1C Buh is closed
+08:25:58 fulfill Zayavka in 1c UPP
+08:27:44 Initializing settings.../ create a log file / copy Buffer File - 1c8BuhBuf.xlsx
+08:27:46 run 1C Buh
+08:27:46 delay 5 sec
+08:27:51 1C Buh is started
+08:27:51 1C UPP is started
+08:27:54 start process
+08:27:54 exe file 1c Buh is 1cv8c.exe
+08:28:04 opened an act in 1C Buh
+08:28:35 An Act is fullfilled
+08:28:37 contract is 9019579792
+08:28:41 suma is 634,10 
+08:28:46 1C Buh is closed
+08:29:27 fulfill Zayavka in 1c UPP
+08:30:25 fulfill Zayavka is fullfilled
+08:33:07 The end of process

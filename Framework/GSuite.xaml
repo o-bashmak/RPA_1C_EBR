@@ -1,0 +1,263 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="GSuite" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:gadvd="clr-namespace:Google.Apis.Drive.v3.Data;assembly=Google.Apis.Drive.v3" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugad="clr-namespace:UiPath.GSuite.Activities.Drive;assembly=UiPath.GSuite.Activities" xmlns:ugas="clr-namespace:UiPath.GSuite.Activities.Sheets;assembly=UiPath.GSuite.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_scrUPP" Type="InArgument(x:String)" />
+    <x:Property Name="in_scrBuh" Type="InArgument(x:String)" />
+    <x:Property Name="in_ResultAllProccess" Type="InArgument(x:String)" />
+    <x:Property Name="in_Description" Type="InArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1154,1657</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>GSuite_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="84">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.GSuite</x:String>
+      <x:String>UiPath.GSuite.Contracts</x:String>
+      <x:String>UiPath.GSuite.Activities.Enums</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>Google.Apis.Drive.v3.Data</x:String>
+      <x:String>Google.Apis.Requests</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive</x:String>
+      <x:String>UiPath.GSuite.Activities.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>Google.Apis.Sheets.v4.Data</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="52">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>Google.Apis.Drive.v3</AssemblyReference>
+      <AssemblyReference>Google.Apis</AssemblyReference>
+      <AssemblyReference>Google.Apis.Core</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.Entity</AssemblyReference>
+      <AssemblyReference>Google.Apis.Sheets.v4</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="GSuite - устанавливаем связь с облаком и заполняем таблицу" sap:VirtualizedContainerService.HintSize="540,1592" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="IDscrUPP" />
+      <Variable x:TypeArguments="x:String" Name="ID_RPA_sheet" />
+      <Variable x:TypeArguments="x:String" Name="linkUPPScr" />
+      <Variable x:TypeArguments="gadvd:File" Name="infoScrUPP" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="498,1500" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <ugas:GoogleSheetsApplicationScope ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" FileId="{x:Null}" Filename="{x:Null}" ParentFolderId="{x:Null}" ParentFolderPath="{x:Null}" Timeout="{x:Null}" Account="adm29.servolux@gmail.com" Action="UseExisting" DisplayName="Use Google Spreadsheet" sap:VirtualizedContainerService.HintSize="460,1273" sap2010:WorkflowViewState.IdRef="GoogleSheetsApplicationScope_1" Mode="Browse" SpreadsheetId="https://docs.google.com/spreadsheets/d/1geJ9cOezvo_dT0aoRC-TN-bfLTdZ6pFfqhqKCOEUTr4/edit?usp=drivesdk" SpreadsheetName="Robots UiPath" UseConnectionService="False" UserEmail="adm29.servolux@gmail.com">
+          <ugas:GoogleSheetsApplicationScope.Body>
+            <ActivityAction x:TypeArguments="ugas:IGoogleSheetTarget">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ugas:IGoogleSheetTarget" Name="Spreadsheet" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="426,992" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="gadvd:File[]" Name="resultFile" />
+                  <Variable x:TypeArguments="sd:DataTable" Name="dtAvest" />
+                  <Variable x:TypeArguments="x:String" Name="numLast" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uga:ReadRange ContinueOnError="{x:Null}" Range="{x:Null}" AuthScopesInvalid="False" DisplayName="Read Range sheet" GoogleSpreadsheet="[Spreadsheet]" sap:VirtualizedContainerService.HintSize="384,213" sap2010:WorkflowViewState.IdRef="ReadRange_2" IncludeHeaders="True" Result="[dtAvest]" SheetName="1C_Avest-systems" SpreadsheetId="[ID_RPA_sheet]">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uga:ReadRange>
+                <ugad:GoogleDriveApplicationScope ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" Timeout="{x:Null}" Account="adm29.servolux@gmail.com" DisplayName="Use Google Drive" sap:VirtualizedContainerService.HintSize="384,78" sap2010:WorkflowViewState.IdRef="GoogleDriveApplicationScope_2" UseConnectionService="False" UserEmail="adm29.servolux@gmail.com">
+                  <ugad:GoogleDriveApplicationScope.Body>
+                    <ActivityAction x:TypeArguments="ugad:IGoogleDriveTarget">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="ugad:IGoogleDriveTarget" Name="GoogleDrive" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="Get links of screenshots from GDrive" sap:VirtualizedContainerService.HintSize="376,425" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uga:UploadFile ContinueOnError="{x:Null}" AuthScopesInvalid="False" Convert="False" DisplayName="Upload File screenshot UPP" DriveTarget="[GoogleDrive]" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="UploadFile_6" LocalFilePath="[in_scrUPP]" ParentFolderName="Screenshots" ParentId="https://drive.google.com/drive/folders/1EaKopHk-32X-Tmy31IkFTqLEi7KTfwpF" ParentIdSelectionMode="Browse" Result="[IDscrUPP]" SupportsTeamDrives="False" UpdateExisting="True">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uga:UploadFile>
+                        <uga:CreateFilePermission ContinueOnError="{x:Null}" Domain="{x:Null}" FileFriendlyName="{x:Null}" Result="{x:Null}" UserEmail="{x:Null}" AuthScopesInvalid="False" DisplayName="Share File" DriveTarget="[GoogleDrive]" EmailMessage="A new permission has been created, and you are the recipient!" FileId="[IDscrUPP]" FileIdSelectionMode="EnterId" GranteeType="ANYONE" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CreateFilePermission_6" Role="READER" SendNotificationEmail="False" SupportsTeamDrives="False" UseDomainAdminAccess="False">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uga:CreateFilePermission>
+                        <uga:GetFileInfo ContinueOnError="{x:Null}" AuthScopesInvalid="False" DisplayName="Get File Info" DriveTarget="[GoogleDrive]" FileId="[IDscrUPP]" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="GetFileInfo_6" Result="[infoScrUPP]" SupportsTeamDrives="False">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uga:GetFileInfo>
+                        <Assign DisplayName="Assign link UPP screen" sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[linkUPPScr]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[infoScrUPP.WebViewLink.ToString]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </ActivityAction>
+                  </ugad:GoogleDriveApplicationScope.Body>
+                  <ugad:GoogleDriveApplicationScope.CredentialID>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ugad:GoogleDriveApplicationScope.CredentialID>
+                  <ugad:GoogleDriveApplicationScope.CredentialSecret>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ugad:GoogleDriveApplicationScope.CredentialSecret>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ugad:GoogleDriveApplicationScope>
+                <ui:GetRowItem Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="0" DisplayName="Get Counts Row" sap:VirtualizedContainerService.HintSize="384,51" sap2010:WorkflowViewState.IdRef="GetRowItem_2" Row="[dtAvest.Rows(dtAvest.RowCount-1)]">
+                  <ui:GetRowItem.Value>
+                    <OutArgument x:TypeArguments="x:String">[numLast]</OutArgument>
+                  </ui:GetRowItem.Value>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:GetRowItem>
+                <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{CInt(numLast)+1,DateTime.Now.ToString,in_ResultAllProccess,in_Description,linkUPPScr}]" DataTable="[dtAvest]" DisplayName="Add Row into dataTable" sap:VirtualizedContainerService.HintSize="384,185" sap2010:WorkflowViewState.IdRef="AddDataRow_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:AddDataRow>
+                <uga:WriteRange ContinueOnError="{x:Null}" Request="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" DataTable="[dtAvest]" DisplayName="Write table in GSheets" GoogleSpreadsheet="[Spreadsheet]" sap:VirtualizedContainerService.HintSize="384,213" sap2010:WorkflowViewState.IdRef="WriteRange_2" IncludeHeaders="True" IsInsideBatchUpdateScope="False" SheetName="1C_Avest-systems" SpreadsheetId="[ID_RPA_sheet]" StartingCell="A1">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uga:WriteRange>
+              </Sequence>
+            </ActivityAction>
+          </ugas:GoogleSheetsApplicationScope.Body>
+          <ugas:GoogleSheetsApplicationScope.CredentialID>
+            <InArgument x:TypeArguments="x:String">
+              <Literal x:TypeArguments="x:String" Value="" />
+            </InArgument>
+          </ugas:GoogleSheetsApplicationScope.CredentialID>
+          <ugas:GoogleSheetsApplicationScope.CredentialSecret>
+            <InArgument x:TypeArguments="x:String">
+              <Literal x:TypeArguments="x:String" Value="" />
+            </InArgument>
+          </ugas:GoogleSheetsApplicationScope.CredentialSecret>
+        </ugas:GoogleSheetsApplicationScope>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+  </Sequence>
+</Activity>
